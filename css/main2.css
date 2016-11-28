@@ -1,0 +1,65 @@
+body
+{
+    background: black;
+    color: white;
+}
+
+#side-pic  
+{
+    width: 100%;
+    height: auto;
+/*    position: sticky;*/
+}
+
+.img-logo
+{
+    width: 15%;
+    height: auto
+}
+
+.section-title
+{
+    text-align: center;
+}
+
+.section-subtitle
+{
+    text-align: center;
+}
+
+.section-bold-title
+{
+    font-weight: bold;
+}
+
+.section-text
+{
+    text-align: center;
+}
+
+.section-li
+{
+    text-align: left;
+}
+/*
+@media (max-width: 250px) {
+  .section-li
+    {
+        text-align: center;
+    }
+
+}
+*/
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+  }
+}
+
+.main
+{
+    float: right;
+}
