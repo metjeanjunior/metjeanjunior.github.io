@@ -1,0 +1,129 @@
+{
+	"basic-info" :
+	[
+		{ "name" : "Origin:", "value" :"Founded in Boston’s South End in 1863"},
+		{ "name" : "Colors:", "value" :"Maroon and Gold"},
+		{ "name" : "Motto:", "value" :"\"Ever to Excel\" fromBook Six of The Iliad"},
+		{ "name" : "Mascot:", "value" :"Baldwin The Eagle"},
+		{ "name" : "Total Enrollment", "value" :"14250"},
+		{ "name" : "Endowment (Billions)", "value" :"$2.2"},
+		{ "name" : "US News Ranking", "value" :"31st"}
+	],
+
+
+	"locations" :
+	[
+		[
+			{"location" : "upper",
+				"short_descr" : "For lucky freshmen and not so lucky sophomore, O Connell house and admin offices along CoRo",
+				"spinner" : [
+					"Freshman Dorms",
+					"Sophomore Dorms",
+					"O Connell House",
+					"Admin and Resource Offices"
+				],
+				"long_descr" : "If you are lucky, this is where you will live during your freshman year. Ironically, If you are not so lucky, you will live there during your sophomore year. The alternatives are Newton Campus for freshmen and Lower for Sophomores. If you live there you will get most of your meals at Mac (See Middle Campus). Regardless of your class year, Upper/CoRo has the advatage of being the dorms closest to classes."
+			}
+		] ,
+
+		[
+			{"location" : "middle",
+				"short_descr" : "Where most if not all your classes (and libraries) will be.",
+				"spinner" : [
+					"Class Halls",
+					"Libraries",
+					"Green Space",
+					"Dining Hall"
+				],
+				"long_descr" : "This is where most if not all of your classes will take place. The main 2 libraries (Oneil, Burns/Bapts) are also in that secion. There is a lot of green space and you can observe the BC grass (changed every spring) in its prime habitat. Dont forget to check out the forever famous Gasson Hall. The Burns Library is considered to be among some of the best looking libraries in the world. Possible class Locations: {Math -> Campion, Gasson} {Humanities (Phil, Tho, Eng) -> Stokes} {CS, Business, Communication -> Fulton} {Biology -> Higgins} {Chemistry -> Higgins, Merket"
+			}
+		],
+
+		[
+			{"location" : "lower",
+				"short_descr" : "Where you will eat and sleep for most of your college career. ",
+				"spinner" : [
+					"Sport Fields",
+					"Dining Hall",
+					"Dorms",
+					"Mods, Plex, Construction"
+				],
+				"long_descr" : "Odds are, you will live here for most of your college career. Living here means that the lower dining hall (objectively the best) will be of a short walking distance. If you are not careful, attempting to live in some areas here can cost you some friendships. The plex (if you are into that sort of thing) is where you will work out (unless you got luck and you live on Newton). Most of the sports facilities are on lower. Now is a good time to mention that we are a D1 school. We have one of the best hockey teams in the nation. The same cannot be said for most of the other sports."
+			}
+		],
+
+		[
+			{"location" : "misc_main",
+				"short_descr" : "Not Important enought to get its own description",
+				"spinner" : [
+					"Million Dollar Stair",
+					"Gasson Eagle",
+					"Bapts Memorial"
+				],
+				"long_descr" : "The million dollar start will either be your best friend or your worst enemy. No in between. There are eagles all over the place. If you ever get bored, go on a quest to find them all. The replacement of the plex is currently under construction and should be done by 2020."
+			}
+		],
+
+
+		[
+			{"location" : "brighton",
+				"short_descr" : "Administrative offices, Museum, Theology",
+				"spinner" : [
+					"Museum",
+					"Green Space",
+					"Theology Builings",
+					"Admin Offices"
+				],
+				"long_descr" : "Unless you arre studying Theology or end up getting a job on campus, you will prbably never go to brighton. We do however have a beautiful museum that you ought to visit at least once before you graduate. It is also the most beautiful campus at BC"
+			}
+		],
+
+		[
+			{"location" : "misc_brighton",
+				"short_descr" : "Not Important enought to get its own description",
+				"spinner" : [
+					"El Pelon",
+					"Crazy Dough Pizza",
+					"White Mountain"
+				],
+				"long_descr" : "While they are not owned by BC, the following places are close by and hot spots: El Pelon: One of best places where you will ever get mexican food. Crazy Dough: If the name is of any indaction, one would guess that they have crazy mixes for pizzas. White Mountains: Ice cream place. You migth end up taking a date (Cronin ???) there."
+			}
+		],
+
+
+		[
+			{"location" : "newton",
+				"short_descr" : "For the law students and the not so lucky freshmen",
+				"spinner" : [
+
+				],
+				"long_descr" : "Straightforward stuff: If you are a law student you will spend a lot of time there. If you are one of those poor souls, this is where you will live. You will need to take a shuttle bus everytime you need to get to the main campus. On the plus side, the newton crew is a fairly knit tight community. Only way to survive is to combine forces."
+			}
+		],
+
+		[
+			{"location" : "misc_newton",
+				"short_descr" : "Not Important enought to get its own description",
+				"spinner" : [
+					"Law School",
+					"Dorms",
+					"Green Space"
+				],
+				"long_descr" : "There is a lot of green space around. There are more than one way of getting back to your room from the shuttle stop. Always remember that not all ways are created equal The Old alumni house (big white mansion) is open from 6-10pm for you to go study. If they will let you, go visit the basement. It is some spooky stuff."
+			}
+		],
+
+		[
+			{"location" : "prized",
+				"short_descr" : "Inside Info that we are entrusting you with",
+				"spinner" : [
+					"Shortcuts",
+					"Act like you belong",
+					"Sports",
+					"Major Events"
+				],
+				"long_descr" : "BC is notoriously known for not being handicapped friendly. There are Stairs everywhere. So if you are out of shape and do not intend on get into shape anytime soon, just know that there are ways getting around without taking the being forced to work out against your will. There is a shuttle bus in front of Conte that significantly speeds up the time to get into the city. BC also provides a shuttle to the Chestnut Hill Mall Some traditions to know about: Modstock, Art Fest and The Red Bandana Game. Want to know more, attend BC and you will get to discover them for yourself"
+			}
+		]
+	]
+}
