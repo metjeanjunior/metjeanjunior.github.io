@@ -15,17 +15,19 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/marquee.js"></script>
 	</head>
 	<body>
         <div class="container-fluid">
             <div class="col-sm-6 nav nav-sidebar sidebar">
-<!--                <img src="img/me.jpg" id="side-pic">-->
-<!--                <img src="img/stuffCropped1.png" id="side-pic">-->
-<!--                <img src="img/stuffCropped2.png" id="side-pic">-->
+    <!--                <img src="img/me.jpg" id="side-pic">-->
+    <!--                <img src="img/stuffCropped1.png" id="side-pic">-->
+    <!--                <img src="img/stuffCropped2.png" id="side-pic">-->
                 <img src="img/stuffCropped3.jpg" id="side-pic">
-<!--                <img src="img/stuffCropped4.png" id="side-pic">-->
+    <!--                <img src="img/stuffCropped4.png" id="side-pic">-->
             </div>
             <div class="col-sm-6 main">
+                <marquee id="quote"></marquee><br>
                 <div class="row">
                     <div class="section-title">
                         <h2>Who?</h2>
@@ -47,38 +49,34 @@
                         <div class="section-subtitle">
                             <h3>Projects</h3>
                         </div>
-                        <div class="row">
-                            <div class="section-text">
-                                <div class="col-sm-4">
-                                    <div class="section-bold-title">
-                                        <a target="_blank" href="http://cscilab.bc.edu/~metelusj/marketplace/">BC's Marketplace</a>
-                                    </div>
-                                    I took the lead on a Final project for My WebApps Class. We created a place where students could exchange goods (mainly books). This project stuck to the alpha phase.
-                                    The public github repository can be found <a target="_blank" href="https://github.com/metjeanjunior/webAppsFinalProject/wiki">here</a>.
+                        <div class="row section-text">
+                            <div class="col-sm-4">
+                                <div class="section-bold-title">
+                                    <a target="_blank" href="https://github.com/metjeanjunior/crypto-rainbow">Python-Crypto (Rainbow Table)</a>
                                 </div>
-                                <div class="col-sm-4">
-                                    <div class="section-bold-title">
-                                        <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system">Distributed File System</a>
-                                    </div>
-                                    A simple file sharing system that is intended to be used a form of backup for files. It uses a farm of 3  servers with each subfarm having 3 workers. A more detailed explanation can be found <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system/blob/master/README.md">here</a>, and  the initial write-up of the first version <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system/blob/master/writeUP.txt">here</a>
+                                I took the lead on a final project for Cryptography class. This will create a rainbow table to crack the SHA-1 hash of any lowercase alpha only word. 
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="section-bold-title">
+                                    <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system">Distributed File System</a>
                                 </div>
-                                <div class="col-sm-4">
-                                    <div class="row">
-                                        <div class="section-bold-title">
-                                            <a target="_blank" href="https://github.com/foraliving/foraliving_v0">For a Living</a>
-                                        </div>
-                                        The <a target="_blank" href="http://foraliving.org/">For a Living</a> project is still in its early stages. The repository above contains the initial Django application that I started developing for them. It served as a nice proof of concept.
-                                    </div>
+                                A simple file sharing system that is intended to be used a form of backup for files. It uses a farm of 3  servers with each subfarm having 3 workers. A more detailed explanation can be found <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system/blob/master/README.md">here</a>, and  the initial write-up of the first version <a target="_blank" href="https://github.com/metjeanjunior/distributed-file-system/blob/master/writeUP.txt">here</a>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="section-bold-title">
+                                    <a target="_blank" href="https://github.com/metjeanjunior/android-fun-projects">Some Android Apps</a>
                                 </div>
+                                This repo contains some of the apps that I developed for my mobile apps class among others. Of course, I went a little above and beyond of what was asked because that's what I do :)
                             </div>
                         </div>
                         <hr>
                         <div class="row section-text">
                             <div class="col-sm-4">
                                 <div class="section-bold-title">
-                                    <a target="_blank" href="https://github.com/metjeanjunior/android-fun-projects">Some Android Apps</a>
+                                    <a target="_blank" href="http://cscilab.bc.edu/~metelusj/marketplace/">BC's Marketplace</a>
                                 </div>
-                                This repo contains some of the apps that I developed for my mobile apps class among others. Of course, I went a little above and beyond because what was asked that's what I do :)
+                                I took the lead on a Final project for My WebApps Class: a place where students could exchange goods (mainly books).
+                                The public github repository can be found <a target="_blank" href="https://github.com/metjeanjunior/webAppsFinalProject/wiki">here</a>.
                             </div>
                             <div class="col-sm-4">
                                 <div class="section-bold-title">
@@ -152,7 +150,8 @@
                     <div class="section-text">
                         Obligatory to keep up with the theme (<span id="bolded-line">title actually makes no sense</span>).<br>
                         If you're wondering why I didn't use a better picture, it's because all the good ones that I found had to be
-                        cropped. Have a look at the source file for proof.
+                        cropped. Have a look at the source file for proof.<br>
+                        Wanna see something cool? Reload the page and go look at that quote again...
                     </div>
                 </div>
                 
@@ -168,7 +167,7 @@
                         <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
                         <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="metjeanjunior"><a class="LI-simple-link" href='https://www.linkedin.com/in/metjeanjunior?trk=profile-badge'>Jeanmarie Metelus Jr</a></div>
 -->
-                        Why put up my resume when <a target="_blank" href="https://linkedin.com/in/metjeanjunior">my linkedIn</a> is public?
+                        Why upload my <a target="_blank" href="files/resume(public).pdf">resume</a> when <a target="_blank" href="https://linkedin.com/in/metjeanjunior">my linkedIn</a> is public?
                     </div>
                 </div>
                 
@@ -178,10 +177,12 @@
                 <div class="row">
                     <div class="section-title">
                         <h2>How?</h2>
+                        Have a cool project in mind that you want to see become a reality? Want to share a cool opportunity?
+                        Get in touch!!!<br><br> 
                     </div>
                     <div class="section-text">
                         <a target="_blank" href="https://linkedin.com/in/metjeanjunior"><img class="img-logo" src="img/linkedIn.png"></a>
-                        <a target="_blank" href="https://plus.google.com/108436340970260533789"><img class="img-logo" src="img/gplus.png"></a>
+<!--                        <a target="_blank" href="https://plus.google.com/108436340970260533789"><img class="img-logo" src="img/gplus.png"></a>-->
                         <a target="_blank" href="https://github.com/metjeanjunior"><img class="img-logo" src="img/github.png"></a>
                         <a target="_blank" href="mailto:metjeanjunior@gmail.com?Subject=Greetings%20from%20XYZ" target="_top"><img class="img-logo" src="img/mail.png"></a>
 <!--                        <a target="_blank" href="mailto:metjeanjunior@gmail.com?Subject=Greetings%20from%20XYZ" target="_top"><img class="img-logo" src="img/mail2.png"></a>-->

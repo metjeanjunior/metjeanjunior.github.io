@@ -4,11 +4,27 @@ body
     color: white;
 }
 
+marquee
+{
+/*    position: absolute;*/
+/*    z-index: 1000;*/
+	color: #8e5459;
+/*	color: cyan;*/
+}
+
 #side-pic  
 {
     width: 100%;
     height: auto;
 /*    position: sticky;*/
+}
+
+hr
+{ 
+/*    background-color: red; */
+    background-color: #8e5459; 
+    height: 1px; 
+    border: 0; 
 }
 
 .img-logo
@@ -52,11 +68,16 @@ body
 */
 
 @media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    left: 0;
-    z-index: 1000;
-  }
+    .sidebar {
+        position: fixed;
+        left: 0;
+        z-index: 1000;
+    }
+/*
+    marquee {
+        z-index: 10000;
+    }
+*/
 }
 
 .main
