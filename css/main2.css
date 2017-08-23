@@ -6,28 +6,25 @@ body
 
 marquee
 {
+/*    position: absolute;*/
+/*    z-index: 1000;*/
 	color: #8e5459;
+/*	color: cyan;*/
 }
 
 #side-pic  
 {
-    width: 25%;
-    margin: auto;
-    display: block;
-    border-radius: 50%;
+    width: 100%;
+    height: auto;
+/*    position: sticky;*/
 }
 
 hr
 { 
+/*    background-color: red; */
     background-color: #8e5459; 
     height: 1px; 
     border: 0; 
-}
-
-.img-logo
-{
-    width: 15%;
-    height: auto
 }
 
 .img-logo
@@ -58,8 +55,29 @@ hr
 
 .section-li
 {
-    text-align: center;
-    display: inline-block;
+    text-align: left;
+}
+/*
+@media (max-width: 250px) {
+  .section-li
+    {
+        text-align: center;
+    }
+
+}
+*/
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        left: 0;
+        z-index: 1000;
+    }
+/*
+    marquee {
+        z-index: 10000;
+    }
+*/
 }
 
 .main
@@ -71,8 +89,3 @@ hr
 {
     font-weight: bold;
 }
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
- }
