@@ -11,7 +11,7 @@ marquee
 	color: #8e5459;
 }
 
-#side-pic  
+#profile-pic
 {
     width: 25%;
     margin: auto;
@@ -76,7 +76,8 @@ hr
 
 .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top: 0;
+/*    margin-top: 0;*/
+/*    margin: 0 auto;*/
  }
 
 @media (max-width: 767px) {
@@ -91,14 +92,6 @@ hr
         margin: 0;
     }
 }
-
-/*MEDIA QUERY*/
-/*
-@media only screen and (max-width : 640px) {
-	nav:hover ul { display: block; }
-}
-*/
-
 
 .navbar-nav { display: table; width: 100%; margin: 0; }
 .navbar-nav > li { display: table-cell; text-align: center; float: none; }
