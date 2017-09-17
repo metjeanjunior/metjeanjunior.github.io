@@ -74,6 +74,8 @@ hr
     font-weight: bold;
 }
 
+#postnote { font-size: 8px; }
+
 .dropdown:hover .dropdown-menu {
     display: block;
 /*    margin-top: 0;*/
