@@ -33,7 +33,6 @@ function getQuote()
 		"Make it idiot proof and someone will make a better idiot.",
 		"He who laughs last thinks slowest!",
 		"Always remember you're unique, just like everyone else.",
-		"More hay, Trigger?\" \"No thanks, Roy, I'm stuffed!",
 		"A flashlight is a case for holding dead batteries.",
 		"Lottery: A tax on people who are bad at math.",
 		"Error, no keyboard - press F1 to continue.",
@@ -98,4 +97,4 @@ function getQuote()
 	];
 
 	return quotes[Math.floor(Math.random()*quotes.length)];
-};"Give a man a fish and you feed him for a day; teach him to use the Net and he won't bother you for weeks."
+};
